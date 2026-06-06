@@ -20,16 +20,16 @@ int main() {
 	Info people1{};
 	double newAccountOfMoney{};
 	
-	std::cout << "Ââåäèòå íîìåð ñ÷¸òà: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ ÑÑ‡Ñ‘Ñ‚Ð°: ";
 	std::cin >> people1.accountNum;
-	std::cout << "Ââåäèòå èìÿ âëàäåëüöà: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¸Ð¼Ñ Ð²Ð»Ð°Ð´ÐµÐ»ÑŒÑ†Ð°: ";
 	std::cin >> people1.name;
-	std::cout << "Ââåäèòå áàëàíñ: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð±Ð°Ð»Ð°Ð½Ñ: ";
 	std::cin >> people1.amountOfMoney;
-	std::cout << "Ââåäèòå íîâûé áàëàíñ: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð²Ñ‹Ð¹ Ð±Ð°Ð»Ð°Ð½Ñ: ";
 	std::cin >> newAccountOfMoney;
 
-	std::cout << "Âàø ñ÷¸ò: " << people1.name << ", " << people1.accountNum << ", " << newInfo(people1, newAccountOfMoney);
+	std::cout << "Ð’Ð°Ñˆ ÑÑ‡Ñ‘Ñ‚: " << people1.name << ", " << people1.accountNum << ", " << newInfo(people1, newAccountOfMoney);
 
 	return EXIT_SUCCESS;
 }
