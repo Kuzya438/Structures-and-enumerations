@@ -11,11 +11,11 @@ struct Address {
 };
 
 void print_address(Address& variable) {
-	std::cout << "Ãîğîä: " << variable.city << std::endl;
-	std::cout << "Óëèöà: " << variable.street << std::endl;
-	std::cout << "Íîìåğ äîìà: " << variable.house << std::endl;
-	std::cout << "Íîìåğ êâàğòèğû: " << variable.flat << std::endl;
-	std::cout << "Èíäåêñ: " << variable.index << std::endl << std::endl;
+	std::cout << "Ğ“Ğ¾Ñ€Ğ¾Ğ´: " << variable.city << std::endl;
+	std::cout << "Ğ£Ğ»Ğ¸Ñ†Ğ°: " << variable.street << std::endl;
+	std::cout << "ĞĞ¾Ğ¼ĞµÑ€ Ğ´Ğ¾Ğ¼Ğ°: " << variable.house << std::endl;
+	std::cout << "ĞĞ¾Ğ¼ĞµÑ€ ĞºĞ²Ğ°Ñ€Ñ‚Ğ¸Ñ€Ñ‹: " << variable.flat << std::endl;
+	std::cout << "Ğ˜Ğ½Ğ´ĞµĞºÑ: " << variable.index << std::endl << std::endl;
 }
 
 int main() {
@@ -23,13 +23,13 @@ int main() {
 
 	Address people1{};
 
-	people1.city = "Ìîñêâà";
-	people1.street = "Àğáàò";
+	people1.city = "ĞœĞ¾ÑĞºĞ²Ğ°";
+	people1.street = "ĞÑ€Ğ±Ğ°Ñ‚";
 	people1.house = 12;
 	people1.flat = 8;
 	people1.index = 123456;
 
-	Address people2{ "Èæåâñê", "Ïóøêèíà", 59, 143, 953769 };
+	Address people2{ "Ğ˜Ğ¶ĞµĞ²ÑĞº", "ĞŸÑƒÑˆĞºĞ¸Ğ½Ğ°", 59, 143, 953769 };
 
 	print_address(people1);
 	print_address(people2);
