@@ -24,65 +24,65 @@ int main() {
 	Months monthNumber{};
 
 	do {
-		std::cout << "Ââåäèòå íîìåð ìåñÿöà: ";
+		std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð½Ð¾Ð¼ÐµÑ€ Ð¼ÐµÑÑÑ†Ð°: ";
 		std::cin >> num;
 		monthNumber = static_cast<Months>(num);
 
 		switch (monthNumber) {
 		case static_cast<Months>(0): {
-			std::cout << "Äî ñâèäàíèÿ";
+			std::cout << "Ð”Ð¾ ÑÐ²Ð¸Ð´Ð°Ð½Ð¸Ñ";
 			break;
 		}
 		case Months::January: {
-			std::cout << "ßíâàðü" << std::endl;
+			std::cout << "Ð¯Ð½Ð²Ð°Ñ€ÑŒ" << std::endl;
 			break;
 		}
 		case Months::February: {
-			std::cout << "Ôåâðàëü" << std::endl;
+			std::cout << "Ð¤ÐµÐ²Ñ€Ð°Ð»ÑŒ" << std::endl;
 			break;
 		}
 		case Months::March: {
-			std::cout << "Ìàðò" << std::endl;
+			std::cout << "ÐœÐ°Ñ€Ñ‚" << std::endl;
 			break;
 		}
 		case Months::April: {
-			std::cout << "Àïðåëü" << std::endl;
+			std::cout << "ÐÐ¿Ñ€ÐµÐ»ÑŒ" << std::endl;
 			break;
 		}
 		case Months::May: {
-			std::cout << "Ìàé" << std::endl;
+			std::cout << "ÐœÐ°Ð¹" << std::endl;
 			break;
 		}
 		case Months::June: {
-			std::cout << "Èþíü" << std::endl;
+			std::cout << "Ð˜ÑŽÐ½ÑŒ" << std::endl;
 			break;
 		}
 		case Months::July: {
-			std::cout << "Èþëü" << std::endl;
+			std::cout << "Ð˜ÑŽÐ»ÑŒ" << std::endl;
 			break;
 		}
 		case Months::August: {
-			std::cout << "Àâãóñò" << std::endl;
+			std::cout << "ÐÐ²Ð³ÑƒÑÑ‚" << std::endl;
 			break;
 		}
 		case Months::September: {
-			std::cout << "Ñåíòÿáðü" << std::endl;
+			std::cout << "Ð¡ÐµÐ½Ñ‚ÑÐ±Ñ€ÑŒ" << std::endl;
 			break;
 		}
 		case Months::October: {
-			std::cout << "Îêòÿáðü" << std::endl;
+			std::cout << "ÐžÐºÑ‚ÑÐ±Ñ€ÑŒ" << std::endl;
 			break;
 		}
 		case Months::November: {
-			std::cout << "Íîÿáðü" << std::endl;
+			std::cout << "ÐÐ¾ÑÐ±Ñ€ÑŒ" << std::endl;
 			break;
 		}
 		case Months::December: {
-			std::cout << "Äåêàáðü" << std::endl;
+			std::cout << "Ð”ÐµÐºÐ°Ð±Ñ€ÑŒ" << std::endl;
 			break;
 		}
 		default: {
-			std::cout << "Íåïðàâèëüíûé íîìåð!" << std::endl;
+			std::cout << "ÐÐµÐ¿Ñ€Ð°Ð²Ð¸Ð»ÑŒÐ½Ñ‹Ð¹ Ð½Ð¾Ð¼ÐµÑ€!" << std::endl;
 			break;
 		}
 		}
