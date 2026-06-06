@@ -1,0 +1,35 @@
+#include <iostream>
+#include <cstdlib>
+#include <string>
+#include <Windows.h>
+
+struct Info {
+	std::string name{};
+	double amountOfMoney{};
+	int accountNum{};
+};
+
+ inline double newInfo(Info& people, double& newAccountOfMoney) {
+	return people.amountOfMoney = newAccountOfMoney;
+}
+
+int main() {
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+
+	Info people1{};
+	double newAccountOfMoney{};
+	
+	std::cout << "¬ведите номер счЄта: ";
+	std::cin >> people1.accountNum;
+	std::cout << "¬ведите им€ владельца: ";
+	std::cin >> people1.name;
+	std::cout << "¬ведите баланс: ";
+	std::cin >> people1.amountOfMoney;
+	std::cout << "¬ведите новый баланс: ";
+	std::cin >> newAccountOfMoney;
+
+	std::cout << "¬аш счЄт: " << people1.name << ", " << people1.accountNum << ", " << newInfo(people1, newAccountOfMoney);
+
+	return EXIT_SUCCESS;
+}
